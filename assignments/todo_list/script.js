@@ -1,9 +1,9 @@
-const newTodoInput = document.querySelector('input');
+const TodoInput = document.querySelector('input');
 const addTodoBtn = document.querySelector('button');
 const todolist = document.querySelector('div.todos');
 let count = 0;
 addTodoBtn.onclick = function(){
-    var input = newTodoInput.value;
+    var input = TodoInput.value;
     if(input.length === 0) {
     alert("Please enter a task");
     } else {
